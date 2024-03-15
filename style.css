@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    background-color:black;
+}
+
+.Container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.Header{
+    border-bottom: 3px solid #32b9cd;
+    
+}
+
+.Titulo{
+    color: #32b9cd;
+    font-weight: 500;
+}
+
+.navbar{
+    width: 400px;
+    display: flex;
+    color: #e3b062;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+.Header .Container{
+    justify-content: space-between;
+}
